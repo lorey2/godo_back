@@ -1,0 +1,24 @@
+# Binary executable (the compiled app)
+goback
+godo-server
+
+# Environment variables (Crucial for security)
+.env
+
+# Go dependencies and temporary files
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
